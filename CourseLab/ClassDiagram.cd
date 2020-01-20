@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Interface" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAABAAEJEAAAAEAAoAIAAQAAAABoAAAA=</HashCode>
+      <FileName>CourseLab.cpp</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="table" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Fraction" Collapsed="true" HideInheritanceLine="true">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <Members>
+      <Method Name="abs_frac" Hidden="true" />
+      <Method Name="compare" Hidden="true" />
+      <Method Name="f_div" Hidden="true" />
+      <Method Name="f_minus" Hidden="true" />
+      <Method Name="f_mult" Hidden="true" />
+      <Method Name="f_plus" Hidden="true" />
+      <Method Name="lenof" Hidden="true" />
+      <Method Name="move" Hidden="true" />
+      <Method Name="nod" Hidden="true" />
+      <Method Name="nok" Hidden="true" />
+      <Method Name="normalize" Hidden="true" />
+      <Method Name="operator-" Hidden="true" />
+      <Method Name="operator double" Hidden="true" />
+      <Method Name="operator*" Hidden="true" />
+      <Method Name="operator*=" Hidden="true" />
+      <Method Name="operator/" Hidden="true" />
+      <Method Name="operator/=" Hidden="true" />
+      <Method Name="operator+" Hidden="true" />
+      <Method Name="operator+=" Hidden="true" />
+      <Method Name="operator&lt;" Hidden="true" />
+      <Method Name="operator&lt;=" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="operator-=" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+      <Method Name="operator&gt;" Hidden="true" />
+      <Method Name="operator&gt;=" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Object" IsHidden="true" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQQBSABAEIIUAAABAFCAeEgACoAAwCQBM=</HashCode>
+      <FileName>Fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Object" Collapsed="true">
+    <Position X="1.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAQAAAAAAEAAAAAFAAIAAACAAAACAAA=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Real" Collapsed="true" HideInheritanceLine="true">
+    <Position X="2.5" Y="0.75" Width="1.5" />
+    <Members>
+      <Method Name="operator-" Hidden="true" />
+      <Method Name="operator--" Hidden="true" />
+      <Method Name="operator*" Hidden="true" />
+      <Method Name="operator+" Hidden="true" />
+      <Method Name="operator++" Hidden="true" />
+      <Method Name="operator&lt;" Hidden="true" />
+      <Method Name="operator&lt;=" Hidden="true" />
+      <Method Name="operator=" Hidden="true" />
+      <Method Name="operator==" Hidden="true" />
+      <Method Name="operator&gt;" Hidden="true" />
+      <Method Name="operator&gt;=" Hidden="true" />
+      <Method Name="put" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Object" IsHidden="true" />
+    <TypeIdentifier>
+      <HashCode>AASACAgpEAAAAAQgQIEQQWAAgAAFAAIAAACggAACUAE=</HashCode>
+      <FileName>real.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ObjDynArray">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAMAAAAAAQAAwEBICAAAAAEBEFAAgAAQAgAAYCAAA=</HashCode>
+      <FileName>ObjDynArray.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_arr" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Table">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAQAQAAICAAEAEACgIQAAIEAEAhBAAAAAEAAAJCAA=</HashCode>
+      <FileName>Table.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_header" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="eObjectType">
+    <Position X="9.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Object.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
